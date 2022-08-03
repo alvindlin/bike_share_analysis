@@ -1,5 +1,4 @@
 # Google Data Analytics - Coursera Capstone Project 
-Performing analysis for the bike share company Cyclistic
 
 ## Project Overview
 
