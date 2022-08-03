@@ -3,7 +3,7 @@ Performing analysis for the bike share company Cyclistic
 
 ## Project Overview
 
-This case study was performed on a fictional bike-share company called Cyclistic. The data was cleaned, processed and analyzed in PostgreSQL prior to importing it into Excel and Tableau for visualization. The full Tableau dashboard can be found [here](https://public.tableau.com/views/CyclisticBikeshare-GoogleDataAnalyticsCapstoneProject/DashboardFinalV2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+This case study was performed on a fictional bike-share company called Cyclistic. The data was cleaned, processed and analyzed in PostgreSQL prior to importing it into Excel and Tableau for visualization. The full Tableau dashboard can be found [here](https://public.tableau.com/views/CyclisticBikeshare-GoogleDataAnalyticsCapstoneProject/DashboardFinalV2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link). 
 
 The company was found in 2016 in Chicago and has a fleet of 5,824 bicycles that are geotracked and locked across 692 stations across Chicago. Customers who purchase a single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. The director of marketing has a clear goal: design marketing strategies aimed at converting casual riders into annual members. In order to do that, the marketing analysis team needs to better understand how annual members and casual riders differ. This dashboard will present the trends between casual and annual members in the last year. 
 
@@ -11,7 +11,7 @@ The full dataset can be accessed [here](https://divvy-tripdata.s3.amazonaws.com/
 
 ## Analysis and Challenges
 
-About 5.75 million bike rentals over 12 months were used in this analysis. My goals were to find the difference in behavior between casual and annual members for the following statistics: ride length, number of rides (monthly and weekday), types of bike rentals and the popular bike stations. With this many data points, the data had to be validated for completeness. Analysis log can be found here: 
+About 5.75 million bike rentals over 12 months were used in this analysis. My goals were to find the difference in behavior between casual and annual members for the following statistics: ride length, number of rides (monthly and weekday), types of bike rentals and the popular bike stations. With this many data points, the data had to be validated for completeness. Analysis log can be found [here](https://github.com/alvindlin/bike_share_analysis/tree/main).
 
 Upon exploring the data, the "Start Station" and "End Station" columns had a total of about 14% of its data to be missing (roughly 800,000 rows). This is well above 5% tolerance range, so I decided to exclude using that data. For this reason, I could not find the popular bike stations. The rest of the other columns I needed to use were complete and had no null or missing values. After data validation, I extracted the following columns for analysis: type of bike rented, time started, time ended and type of member. 
 
