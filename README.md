@@ -7,6 +7,8 @@ This case study was performed on a fictional bike-share company called Cyclistic
 
 The company was found in 2016 in Chicago and has a fleet of 5,824 bicycles that are geotracked and locked across 692 stations across Chicago. Customers who purchase a single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. The director of marketing has a clear goal: design marketing strategies aimed at converting casual riders into annual members. In order to do that, the marketing analysis team needs to better understand how annual members and casual riders differ. This dashboard will present the trends between casual and annual members in the last year. 
 
+The full dataset can be accessed [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement). For this study, I used the data from May 2021 to April 2022. 
+
 ## Analysis and Challenges
 
 About 5.75 million bike rentals over 12 months were used in this analysis. My goals were to find the difference in behavior between casual and annual members for the following statistics: ride length, number of rides (monthly and weekday), types of bike rentals and the popular bike stations. With this many data points, the data had to be validated for completeness. Analysis log can be found here: 
