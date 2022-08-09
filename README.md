@@ -1,8 +1,8 @@
-# Google Data Analytics - Coursera Capstone Project 
+# Cyclistic Bikeshare Analysis - Coursera Capstone Project 
 
 ## Project Overview
 
-This case study was performed on a fictional bike-share company called Cyclistic. The data was cleaned, processed and analyzed in PostgreSQL prior to importing it into Excel and Tableau for visualization. The full Tableau dashboard can be found [here](https://public.tableau.com/views/CyclisticBikeshare-GoogleDataAnalyticsCapstoneProject/DashboardFinalV2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link). 
+This case study was performed on a fictional bike-share company called Cyclistic for the Google Data Analytics Course as the final project. The data was cleaned, processed and analyzed in PostgreSQL prior to importing it into Excel and Tableau for visualization. The full Tableau dashboard can be found [here](https://public.tableau.com/views/CyclisticBikeshare-GoogleDataAnalyticsCapstoneProject/DashboardFinalV2?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link). 
 
 The company was found in 2016 in Chicago and has a fleet of 5,824 bicycles that are geotracked and locked across 692 stations across Chicago. Customers who purchase a single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. The director of marketing has a clear goal: design marketing strategies aimed at converting casual riders into annual members. In order to do that, the marketing analysis team needs to better understand how annual members and casual riders differ. This dashboard will present the trends between casual and annual members in the last year. 
 
